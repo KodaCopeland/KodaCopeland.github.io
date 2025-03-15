@@ -3857,3 +3857,14 @@ input, select, textarea {
 		.book__purchase .store-button {
 			font-weight: bold;
 		}
+
+		/* Custom title font */
+		@font-face {
+			font-family: "Caveat-SemiBold";
+			src: url("../webfonts/Caveat-SemiBold.ttf") format("truetype");
+		}
+		
+		#header h1 {
+			font-family: "Caveat-SemiBold", "Source Sans Pro", Helvetica, sans-serif;
+			font-size: 4.25em !important;
+		}
