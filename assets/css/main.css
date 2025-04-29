@@ -3105,11 +3105,6 @@ input, select, textarea {
 				opacity: 1;
 			}
 
-			#header .logo {
-				max-width: 400px;
-				margin: 0 auto !important;
-			}
-
 			#header.alt .logo {
 				-moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
 				-webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
@@ -3121,6 +3116,8 @@ input, select, textarea {
 				transition-delay: 0s;
 				display: block;
 				margin: 0 0 1.5em 0;
+				max-width: 400px;
+				margin: 0 auto !important;
 			}
 
 				#header.alt .logo img {
