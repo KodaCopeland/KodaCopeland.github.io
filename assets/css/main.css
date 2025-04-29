@@ -3105,6 +3105,11 @@ input, select, textarea {
 				opacity: 1;
 			}
 
+			#header .logo {
+				max-width: 400px;
+				margin: 0 auto !important;
+			}
+
 			#header.alt .logo {
 				-moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
 				-webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
